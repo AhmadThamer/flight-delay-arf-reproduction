@@ -1,0 +1,5 @@
+﻿"Setting","ARFSeed","TreesPerForest","Folds","Records","AccuracyPercent","CPUSeconds","KappaMPercent","KappaTemporalPercent","ResultFile"
+"moderate","2","10","10","539383","63.5888969433594","2138.4375","18.2582003887407","13.2012021302455","results/repeats-20261119-183637-313/full-moderate-seed2.csv"
+"fast","2","10","10","539383","63.7193608252392","2233.5625","18.5510877663227","13.5122091353059","results/repeats-20261119-183637-313/full-fast-seed2.csv"
+"moderate","3","10","10","539383","63.5582137368067","2130.3125","18.1893175395296","13.1280578083221","results/repeats-20261119-183637-313/full-moderate-seed3.csv"
+"fast","3","10","10","539383","63.7383269402262","2261.234375","18.5936661075571","13.5574216074072","results/repeats-20261119-183637-313/full-fast-seed3.csv"

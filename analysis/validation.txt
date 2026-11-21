@@ -1,0 +1,7 @@
+PASS moderate learner seed 1: 54 points; final record 539383; numeric values finite; CPU time monotonic.
+PASS moderate learner seed 2: 54 points; final record 539383; numeric values finite; CPU time monotonic.
+PASS moderate learner seed 3: 54 points; final record 539383; numeric values finite; CPU time monotonic.
+PASS fast learner seed 1: 54 points; final record 539383; numeric values finite; CPU time monotonic.
+PASS fast learner seed 2: 54 points; final record 539383; numeric values finite; CPU time monotonic.
+PASS fast learner seed 3: 54 points; final record 539383; numeric values finite; CPU time monotonic.
+PASS new-run logs, learner seeds, JVM arguments, task commands, detector thresholds, and uploaded summary agree.

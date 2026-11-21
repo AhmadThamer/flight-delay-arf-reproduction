@@ -1,0 +1,9 @@
+﻿[
+    "-Xmx4g",
+    "-cp",
+    "C:\\Users\\ahmad\\Documents\\Masters AI\\SEM 3\\BIG data\\Assignment 2 - Big Data\\FlightDelayARF\\moa\\moa-release-2024.07.0\\lib\\moa.jar",
+    "-javaagent:C:\\Users\\ahmad\\Documents\\Masters AI\\SEM 3\\BIG data\\Assignment 2 - Big Data\\FlightDelayARF\\moa\\moa-release-2024.07.0\\lib\\sizeofag-1.1.0.jar",
+    ".\\RunSeededARF.java",
+    "3",
+    "EvaluatePrequentialCV -l (meta.AdaptiveRandomForest -s 10 -p (ADWINChangeDetector -a 0.01) -x (ADWINChangeDetector -a 0.001)) -s (ArffFileStream -f data/airlines.arff) -e BasicClassificationPerformanceEvaluator -w 10 -a 0 -r 1 -i 539383 -f 10000 -d results/repeats-20261119-183637-313/full-fast-seed3.csv"
+]

@@ -1,0 +1,38 @@
+{
+  "n_seed_pairs": 3,
+  "paired_differences_pp": [
+    0.1905510555579113,
+    0.13046388187984093,
+    0.18011320341946657
+  ],
+  "mean_difference_pp": 0.16704271361907294,
+  "sample_sd_difference_pp": 0.03210522368511538,
+  "paired_t": 9.011819069074091,
+  "degrees_of_freedom": 2,
+  "two_sided_p": 0.012090459570485532,
+  "conditional_95_percent_ci_pp": [
+    0.08728891671869791,
+    0.24679651051944795
+  ],
+  "interpretation": "Exploratory variation over learner seeds on one fixed dataset; assumptions cannot be assessed reliably with three pairs. This is not a test of superiority across datasets or equivalence with the original paper.",
+  "majority_class_share_percent": 55.455770760294634,
+  "baseline_comparisons": {
+    "moderate": {
+      "paper_accuracy_percent": 66.26,
+      "reproduced_accuracy_percent": 63.57345955162349,
+      "paper_gain_above_majority_pp": 10.804229239705371,
+      "reproduced_gain_above_majority_pp": 8.11768879132886,
+      "published_gain_retained_percent": 75.13436276876172
+    },
+    "fast": {
+      "paper_accuracy_percent": 66.48,
+      "reproduced_accuracy_percent": 63.74050226524257,
+      "paper_gain_above_majority_pp": 11.02422923970537,
+      "reproduced_gain_above_majority_pp": 8.284731504947935,
+      "published_gain_retained_percent": 75.15021072955618
+    }
+  },
+  "kappa_m_reconstructed_from_paper_accuracy_and_global_majority_percent": 24.255059351380158,
+  "airlines_original_serial_to_parallel_cpu_ratio": 7.598710248816805,
+  "causal_limit": "Similar retained-gain ratios do not identify the cause of the accuracy shortfalls."
+}
